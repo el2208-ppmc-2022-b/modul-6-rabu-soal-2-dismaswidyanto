@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "6\r\n1 3 5 7 9 11\r\n2 4 6 8 10 12\r\n0\r\n0",
+      "output": "322",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "6\r\n1 3 5 7 9 11\r\n2 4 6 8 10 12\r\n1\r\n0",
+      "output": "242",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "6\r\n1 3 5 7 9 11\r\n2 4 6 8 10 12\r\n0\r\n1",
+      "output": "262",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "4\r\n1 2 3 4\r\n5 6 7 8\r\n1\r\n2",
+      "output": "66",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "4\r\n1 2 3 4\r\n5 6 7 8\r\n1\r\n-6",
+      "output": "66",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2\r\n1 4\r\n2 5\r\n0\r\n0",
+      "output": "22",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2\r\n1 4\r\n2 5\r\n1\r\n0",
+      "output": "22",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2\r\n1 4\r\n2 5\r\n0\r\n1",
+      "output": "13",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "10\r\n9 8 7 6 5 4 3 2 1 0\r\n9 0 1 2 3 4 5 6 7 8\r\n1\r\n0",
+      "output": "285",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "10\r\n9 8 7 6 5 4 3 2 1 0\r\n9 0 1 2 3 4 5 6 7 8\r\n1\r\n-5",
+      "output": "160",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
